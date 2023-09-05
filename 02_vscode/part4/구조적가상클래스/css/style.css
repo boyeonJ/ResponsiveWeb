@@ -1,0 +1,47 @@
+*{margin: 0px; padding:0px}
+
+.list {
+    border: 3px solid brown;
+    padding: 10px;
+}
+
+.list div,
+.list p {
+    border: 3px solid skyblue;
+    margin: 10px;
+}
+
+.list div:nth-child(2) {
+    background-color: yellowgreen;
+}
+/* 모든 자식 태그 */
+.list div:nth-child(4) {
+    background-color: rgb(92, 92, 92);
+}
+/* 같은 자식 태그 */
+.list div:nth-of-type(4) {
+    background-color: rgb(92, 92, 92);
+}
+/* 짝수 */
+.list div:nth-child(2n) {
+    background-color: yellow;
+}
+.list div:nth-child(even) {
+    border: 3px dashed orange
+}
+/* 홀수 */
+.list div:nth-child(odd) {
+    background-color: darkgreen;
+}
+/* before, after은 반드시 content가 필요하다. */
+/* 콜론 두개든 한개든 상관없음 */
+.list::before{
+    content: "안녕하세요"
+}
+.list::after{
+    content: "안녕히가세요"
+}
+/* 클래스가 box가 아닌 div에 적용 */
+.list div:not(.box){
+    text-align: right;
+}

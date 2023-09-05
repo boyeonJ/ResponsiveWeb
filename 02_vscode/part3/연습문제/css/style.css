@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#wrap {
+    border: 3px solid #000;
+    width: 600px;
+}
+
+header {
+    background-color: red;
+}
+
+nav {
+    background-color: orange;
+}
+
+.nav_list li a {
+    font-size: 20px;
+}
+
+section {
+    border: 1px solid brown;
+    background-color: yellow;
+}
+
+section article {
+    background-color: green;
+    width: 400px;
+}
+
+article img {
+    width: 200px
+}
+
+aside {
+    background-color: skyblue;
+}
+
+footer {
+    background-color: violet;
+}
