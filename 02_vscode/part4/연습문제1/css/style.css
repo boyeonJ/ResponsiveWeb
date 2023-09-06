@@ -1,0 +1,41 @@
+*{padding:0px}
+
+#container {
+    background-color: #eee;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    padding: 20px 5px;
+}
+#container::after,
+#container::before {
+    color: rgb(165, 77, 42);
+}
+#container::before {
+    content: "안녕하세요?? 저는 보연입니다";
+}
+#container::after {
+    content: "감사합니다";
+}
+
+#container ul li {
+    color: white;
+}
+#container ul li:nth-child(2n) {
+    background-color: rgb(224, 141, 169);
+}
+#container ul li:nth-child(odd) {
+    background-color: rgb(132, 67, 132);
+}
+#container ul li:first-child {
+    border: 3px dashed black;
+}
+#container ul li:nth-child(7) {
+    text-align: right;
+}
+#container ul li:nth-child(9) {
+    border: 3px solid black;
+}
+
+#container ul li::first-letter {
+    font-size: 3px;
+}
