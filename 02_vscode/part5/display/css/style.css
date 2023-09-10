@@ -1,0 +1,47 @@
+* {
+    padding: 0; margin:0;
+}
+
+
+ul.box {
+    border:3px solid #000;
+    text-align: center;
+}
+
+ul.box li {
+    /* 상위요소의 글꼴 정렬에 영향을 받는다.*/
+    display: inline-block;
+}
+
+ul.box li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+ul.box li.b01 {
+    background-color:  red;
+}
+
+ul.box li.b02 {
+    background-color:  orange;
+}
+
+ul.box li.b03 {
+    background-color:  yellow;
+}
+
+ul.box li.b04 {
+    display: none;
+    visibility: hidden;
+    background-color:  green;
+}
+
+ul.box li.b05 {
+    background-color:  blue;
+}
+
+
