@@ -1,0 +1,14 @@
+#container {
+    border: 3px sloid #000;
+    display: flex;
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 1px solid red;
+}
+
+
+ 
