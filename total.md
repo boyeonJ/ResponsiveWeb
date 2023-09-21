@@ -54,3 +54,14 @@ background-position: center;
 
 ---
 
+flex
+
+flex-direction : row, row-reverse, column, column-reverse
+
+justify-content(메인축): flext-start, flex-end, center, space-between, space-evenly, spave-arount
+
+*justify-self: start, center, end, stretch
+
+align-itmes(교차축): flex-start, flex-end, stretch, center
+
+*align-self: start, end, center, stretch

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+
+#header {
+    background-color: rgb(235, 230, 230);
+    text-align: center;
+    height: auto;
+    padding: 20px
+}
+
+
+#header .header_wrap {
+    display: inline-block;
+}
+
+#header .header_wrap ul {
+    padding-left: 0px;
+    padding-top: 20px;
+    display: inline-flex;
+}
+
+#header .header_wrap ul li{
+    border-radius: 30%;
+    background-color: rgb(48, 51, 77);
+    margin: 0 10px;
+    padding: 5px 15px;
+}
+
+#header .header_wrap li a {
+    color: white;
+}
+
+/* 사실상 inline-flex랑 inline-block이랑 같아보여서.. 대부분 inline-flex만 할꺼 같은데 */
+/* inline-flex는 justify-content랑 align-items으로 하면 될꺼 같아 보이는데 */
+/* inline-block은?  text-align: center;*/
+/* Flexbox는 주로 유연한 레이아웃을 구축하기 위해 사용되지만 inline-block은 텍스트와 함께 인라인 레벨 요소를 사용하고자 할 때 유용합니다. */
+
+/* .container #visual h2 p 
+.container content aside h3
+.container content aside h3 ul#class_menu ul a */
+
+#container {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container .visual {
+    background-image: url(../image/visu.png);
+    height: 500px;
+    background-size: cover;
+    text-align: right;
+}
+
+#container .visual h2 {
+    font-size:100px;
+    display: inline-block;
+    margin-top: 150px
+}
+
+#container .visual p {
+    display: inline-block;
+}
+
+#container .content {
+    background-color: rgb(235, 230, 230);
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+}
+
+#container .content h3{
+    font-size: 60px;
+}
+
+#container .content ul {
+    color: white;
+}
+
+#container .content ul li{
+    margin: 10px 0;
+    background-color: green;
+    height: 30px;
+    text-align: center;
+}
+
+#container .content ul a{
+    color: white;
+}
+
+#container .content2 {
+    background-color: red;
+}
+
+
